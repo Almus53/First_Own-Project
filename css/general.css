@@ -1,0 +1,21 @@
+ body {
+        margin: 0px;
+    }
+    p,div,input,select {
+        font-family: Roboto,Arial;
+    }
+    input,button {
+        box-sizing: border-box;
+    }
+    p {
+        margin: 0px;
+    }
+    .top p {
+        color: white;
+    }
+    a {
+        color: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        text-decoration: none;
+    }
