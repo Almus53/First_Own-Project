@@ -104,11 +104,9 @@
 .menu {
     flex: 1;
     color: white;
-    padding: 5px 15px;
+    padding: 5px;
     font-size: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
     transition: opacity 150ms;
     position: relative;
@@ -135,26 +133,23 @@
 }
 .slidebar {
     background-color:rgb(54, 65, 86);
-    color: white;
     position: absolute;
     top: 100%;
     left: 0px;
     right: 0px;
-    transform: translateY(-100%);
-    visibility: hidden;
+    transform: translateY(-0%);
+    visibility: visible;
     transition: transform 0.5s, visibility 0.5s;
     z-index: -1;
     display: flex;
-    gap: 20px;   
 }
 .slidebar a {
-        color: inherit;
-        font-size: inherit;
+        flex: 1;
+        color: white;
         font-family: inherit;
         text-decoration: none;
         font-size: 20px;
-        padding: 5px 15px;
-        flex: 1;
+        padding: 5px;
 }
 .menu:hover + .slidebar {
     transform: translateY(0px);
