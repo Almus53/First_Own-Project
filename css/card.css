@@ -40,8 +40,9 @@
         left: 10px;
         font-size: 20px;
         font-weight: bolder;
-        clip-path: polygon(0% 0%,10% 50%,0% 50%,10% 100%,100% 100%,90% 50%,100% 50%,90% 0%);
+        clip-path: polygon(0% 0%,90% 0%,100% 100%,10% 100%);
         transition:  background-color 300ms,color 300ms;
+        box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.3);
     }
     .product {
         background-color: rgba(255, 255, 255, 0.5);
@@ -85,11 +86,12 @@
         border-radius: 5px;
         border-width: 1px;
         cursor: pointer;
-        transition: opacity 300ms;
+        transition: opacity 300ms,filter 300ms;
     }
     .buy:hover, .add:hover {
         opacity: 0.8;
     }
     .buy:active, .add:active {
         opacity: 0.6;
+        filter: invert(1);
     }
