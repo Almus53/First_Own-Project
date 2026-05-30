@@ -137,8 +137,8 @@
     top: 100%;
     left: 0px;
     right: 0px;
-    transform: translateY(-0%);
-    visibility: visible;
+    transform: translateY(-100%);
+    visibility: hidden;
     transition: transform 0.5s, visibility 0.5s;
     z-index: -1;
     display: flex;
