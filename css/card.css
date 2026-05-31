@@ -1,4 +1,4 @@
-    .card {
+    article {
         display: flex;
         flex: 1;
         aspect-ratio: 1/1.2;
@@ -55,12 +55,12 @@
         opacity: 0;
         transition: opacity 300ms;
     }
-    .card:hover .price {
+    article:hover .price {
         background-color: red;
         color: white;
     }
 
-    .card:hover .product {
+    article:hover .product {
         opacity: 1;
     }
     .checkout {

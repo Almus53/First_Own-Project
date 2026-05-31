@@ -1,4 +1,4 @@
-.header {
+header {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -53,7 +53,7 @@
 .search img {
     height: 40px;
 }
-.right-section {
+.right {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,7 +65,7 @@
     padding-left: 5px;
     font-size: 13px;
 }
-.right-section select {
+.right select {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     color: white;
@@ -95,7 +95,7 @@
 .cart p {
     font-size: 20px;
 }
-.bottom {
+nav {
     width: 100%;
     display: flex;
     position: relative;
@@ -107,6 +107,7 @@
     padding: 5px;
     font-size: 20px;
     display: flex;
+    align-items: center;
     cursor: pointer;
     transition: opacity 150ms;
     position: relative;
@@ -142,14 +143,10 @@
     transition: transform 0.5s, visibility 0.5s;
     z-index: -1;
     display: flex;
+    align-items: center;
 }
 .slidebar a {
-        flex: 1;
-        color: white;
-        font-family: inherit;
-        text-decoration: none;
-        font-size: 20px;
-        padding: 5px;
+    flex: 1;
 }
 .menu:hover + .slidebar {
     transform: translateY(0px);
