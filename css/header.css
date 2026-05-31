@@ -147,6 +147,7 @@ nav {
 }
 .slidebar a {
     flex: 1;
+    padding: 5px;
 }
 .menu:hover + .slidebar {
     transform: translateY(0px);
