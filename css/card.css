@@ -1,6 +1,5 @@
     article {
         display: flex;
-        flex: 1;
         aspect-ratio: 1/1.2;
         max-width: 300px;
         min-width: 250px;
